@@ -1,0 +1,91 @@
+  body{
+   
+  }
+
+.icon-bar {
+  top: 30%;
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  background: #b71616;
+  overflow-x: hidden;
+  
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+
+}
+.icon-bar a:hover {
+  background-color: #d20c0c;
+}
+.active {
+  background-color: #d20c0c;
+}
+  .logo-small {
+    color: #b71616;
+    font-size: 50px;
+  }
+  .logo {
+    color: #b71616;
+    font-size: 200px;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .polaroid {
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.main {
+    top: 15%;
+    left: 10%;
+      position: fixed;
+      width: 80%;  
+      padding: 10px 0;
+      margin: auto;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+      float: center; 
+}
+.formcontainer {
+      box-sizing: border-box;
+      text-align: center;
+      }
+.container {
+      padding: 16px 0;
+      text-align:center;
+      }
+.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+form {
+      float: center;
+      }
+input[type=text], input[type=password] {
+      width: 30%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+
+
+  @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .myCarousel{ width:100%; }
+  .icon-bar{ width: 20%; }
+  .CATEGORIES{ width: 50% }
+}

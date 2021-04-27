@@ -1,0 +1,66 @@
+
+.icon-bar {
+  top: 30%;
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  background: #b71616;
+  overflow-x: hidden;
+  
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+
+}
+.icon-bar a:hover {
+  background-color: #d20c0c;
+}
+.active {
+  background-color: #d20c0c;
+}
+th, td {
+  color: white;
+  padding: 18px;
+  text-align: center;
+  border-bottom: 0px solid #ddd;
+}
+ .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    min-height: 350px;
+    margin-bottom: 10px;
+  }
+  .polaroid {
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.top-right {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  background-image: linear-gradient(to right, black, #b71616);
+  color: white;
+  width: 30%;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+
+	 @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .myCarousel{ width:100%; }
+  .icon-bar{ width: 20%; }
+  .CATEGORIES{ width: 50% }
+}
